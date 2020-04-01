@@ -112,7 +112,9 @@ int main(){
         }
         else
         {
+            std::cout << std::string(i-1,' ');
             std::cout << std::string(odd,'*') << std::endl;
+            std::cout << std::string(i-1,' ');
             Printer(even);
             odd+=2;
             even+=1;
